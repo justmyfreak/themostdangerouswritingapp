@@ -5,29 +5,34 @@
 > The Most Dangerous Writing App is designed to get you into a state of flow.
 > If you stop typing for more than five seconds, all progress will be lost.
 
-![Hero Shot](http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/Writing-app.jpg)
+# About the repo
+I really like [themostdangerouswritingapp](https://github.com/maebert/themostdangerouswritingapp). So I try to make the installable version of it by using [Electron](https://github.com/atom/electron). 
 
-(Image by [lifehacker](http://lifehacker.com/the-most-dangerous-writing-app-destroys-your-progress-1762981262))
+# How to use
+Download the binary from [release tab](https://github.com/justmyfreak/themostdangerouswritingapp/releases). 
 
-### What people say:
+# Dev guide.
 
-* [@ryanfliss](https://twitter.com/ryanfliss/status/704389331067150337):
-    
-  > i didn't want to like it. i like it
-* [@MariaSender](https://twitter.com/MariaSender/status/704705285219336192):
-  
-  >"Terrifying. Thank you!"
-* [@danhklein](https://twitter.com/danhklein/status/704701084908978176):
-  
-  > @maebert has created the writer's nightmare machine.
-* [Louche Mustachio](http://www.metafilter.com/157549/The-Most-Frustrating-Writing-Webpage#6422455): 
-  
-  > I am panicking just reading the description, which should count as a ringing endorsement. 
+```
+$ npm install
+```
 
-* [LitReactor](https://twitter.com/LitReactor/status/706937232863719424):
-  
-  > Like the movie Speed but with writing. The Most Dangerous Writing App Lives Up To Its Name.
+## Run
 
-* [PopSugar](https://me.popsugar.com/technology/Why-Most-Dangerous-Writing-App-Make-You-More-Productive-40420571):
- 
-  > Spending Time On This App Will Actually Make You More Productive
+```
+$ npm start
+```
+
+## Build
+
+```
+$ npm run build
+```
+
+# Credits
+- [Original Creator](https://github.com/maebert/themostdangerouswritingapp)
+- [Electron](https://github.com/atom/electron)
+- [Electron Boilerplate](https://github.com/sindresorhus/electron-boilerplate/tree/master/boilerplate)
+
+### PS
+A lot of things still in mess. The downloadable binary is just for OSX. It will be fixed on next release or you could build by yourself :p
